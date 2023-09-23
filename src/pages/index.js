@@ -8,18 +8,21 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <>
-      <section className={styles.main_navbar_content}>
-        <div className="container-fluid d-flex">
-        <h1>hello</h1>
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown button
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+      <section className={styles.tempelate_page_body}>
+        <div className={styles.page_inner_body}>
+          <div className={styles.page_head}>
+            <div className={styles.page_head_content}>
+              <p>Your Current Plan</p>
+              <h5>Starter Trial &#8226;500MAUs</h5>
+            </div>
+          </div>
+          <div className={styles.plan_choose_body}>
+            <h2>Choose a plan</h2>
+            <div class={`${styles.bill_content} form-check form-switch px-3`}>
+              <h4>Billed Monthly</h4>
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+              <h4>Billed Anually</h4>
+            </div>
           </div>
         </div>
       </section>

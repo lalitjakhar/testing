@@ -1,7 +1,40 @@
-.main_navbar_content {
-  background-color: rgb(0, 0, 0) !important;
+.tempelate_page_body{
+  padding: 2rem;
 }
-
-.main_navbar_content h1 {
-  color: bisque;
+.page_inner_body{
+  background-color: #000000;
+  padding-inline: 10rem;
+  height: 50rem;
+}
+.page_head{
+  display: flex;
+  justify-content: center;
+}
+.page_head_content{
+  width: 20rem;
+  background-color: #ff0055;
+  color: #ffffff;
+  border-radius: 0px 0px 5px 5px;
+}
+.page_head_content p{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+}
+.page_head_content h5{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+}
+.plan_choose_body{
+  padding-top: 8rem;
+}
+.plan_choose_body h2{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.bill_content{
+  display: flex;
+  justify-content: center;
 }
