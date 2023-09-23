@@ -4,7 +4,7 @@
 .page_inner_body{
   background-color: #000000;
   padding-inline: 10rem;
-  height: 50rem;
+  height: fit-content;
 }
 .page_head{
   display: flex;
@@ -37,4 +37,47 @@
 .bill_content{
   display: flex;
   justify-content: center;
+  padding: 0px;
+  gap: 3rem;
+}
+.bill_content_monthly>span{
+  color: #b6b6b6;
+}
+.bill_content_anually>span{
+  margin-left: -2.5rem;
+  color: #b6b6b6;
+}
+.bill_content>input:checked {
+  background-color: #ff0055;
+  border-color: #ff0055;
+}
+.bill_content>input:focus{
+  box-shadow: none;
+}
+.membership_card_body{
+  background-color: #191920;
+  height: 30rem;
+  padding: 2rem 3rem;
+}
+.membership_body_content h5{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.membership_body_content h1{
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}
+.membership_body_content h1>span{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.membership_button_content{
+  display: flex;
+  justify-content: center;
+}
+.membership_button_content button{
+  width: 70%;
 }
