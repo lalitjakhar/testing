@@ -58,6 +58,7 @@
   background-color: #191920;
   height: 30rem;
   padding: 2rem 3rem 1rem 3rem;
+  margin-bottom: 2rem;
 }
 .membership_body_content h5{
   display: flex;
@@ -113,4 +114,34 @@
   background: none;
   box-shadow: 0 0 0 0.1rem  #ffffff;
   border-radius: 0%;
+}
+
+
+.sec_start_body{
+  margin: 2rem;
+  background-color: #000018;
+}
+.sec_start_body_content{
+  padding: 5rem 15rem;
+  color: #ffffff;
+}
+.sec_start_body_content h1{
+  display: flex;
+  justify-content: center;
+}
+.sec_start_body_content h5{
+  padding-top: 1rem;
+  font-weight: 400;
+}
+.sec_start_body_content_box{
+  background-color: #10879c;
+  color: #000000;
+  margin-top: 2rem;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+.sec_start_body_content_box h3{
+  display: flex;
+  justify-content: center;
+  color: #440000;
 }
