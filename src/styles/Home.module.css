@@ -145,3 +145,15 @@
   justify-content: center;
   color: #440000;
 }
+
+
+.third_wel_body{
+  margin: 2rem;
+  background-color: #ff9900;
+}
+.third_wel_body_content{
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+}

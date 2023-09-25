@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="container mt-4">
             <div className="row">
-              <div className="col-4">
+              <div className="col-sm">
                 <div className={styles.membership_card_body}>
                   <div className={styles.membership_body_content}>
                     <h5>Starter</h5>
@@ -51,7 +51,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-sm">
                 <div className={styles.membership_card_body}>
                   <div className={styles.membership_body_content}>
                     <h5>Pro</h5>
@@ -81,7 +81,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-4">
+              <div className="col-sm">
                 <div className={styles.membership_card_body}>
                   <div className={`${styles.membership_body_content} pb-5`}>
                     <h5>Enterprise</h5>
@@ -113,14 +113,19 @@ export default function Home() {
             <h3>You will learn</h3>
             <hr />
             <ul>
-              <li>How to create and nest components</li>
-              <li>How to add markup and styles</li>
-              <li>How to display data</li>
-              <li>How to render conditions and lists</li>
-              <li>How to respond to events and update the screen</li>
-              <li>How to share data between components</li>
+              <li>How to create and nest components?</li>
+              <li>How to add markup and styles?</li>
+              <li>How to display data?</li>
+              <li>How to render conditions and lists?</li>
+              <li>How to respond to events and update the screen?</li>
+              <li>How to share data between components?</li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section className={styles.third_wel_body}>
+        <div className={styles.third_wel_body_content}>
+          <h1>Welcome to the Next JS community</h1>
         </div>
       </section>
     </>
