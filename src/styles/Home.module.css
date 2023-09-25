@@ -57,7 +57,7 @@
 .membership_card_body{
   background-color: #191920;
   height: 30rem;
-  padding: 2rem 3rem;
+  padding: 2rem 3rem 1rem 3rem;
 }
 .membership_body_content h5{
   display: flex;
@@ -78,6 +78,39 @@
   display: flex;
   justify-content: center;
 }
-.membership_button_content button{
+.membership_button_content>button{
   width: 70%;
+}
+.membership_button_content>button:focus{
+  box-shadow: none;
+}
+.membership_button_content>button:hover{
+  color: #ffffff;
+  box-shadow: none;
+}
+.membership_list_contents{
+  padding-top: 3.9rem;
+}
+.drop_show_body{
+  min-width: 100%;
+}
+.membership_list_contents li{
+  color: #ffffff;
+  line-height: 35px;
+  font-size: 14px;
+}
+.membership_list_contents li::marker {
+  color: rgb(255, 0, 191);
+}
+.membership_card_drop{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.7rem;
+}
+.membership_card_drop button{
+  width: 16rem;
+  color: #ffffff;
+  background: none;
+  box-shadow: 0 0 0 0.1rem  #ffffff;
+  border-radius: 0%;
 }

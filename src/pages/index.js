@@ -38,12 +38,12 @@ export default function Home() {
                   </div>
                   <div className={styles.membership_list_contents}>
                     <ul>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
+                      <li>500MAUs</li>
+                      <li>3 Projects</li>
+                      <li>Unlimited Guides</li>
+                      <li>Unlimited Flows</li>
+                      <li>Unlimited Branded Themes</li>
+                      <li>Email Support</li>
                     </ul>
                   </div>
                   <div className={styles.membership_button_content}>
@@ -57,6 +57,25 @@ export default function Home() {
                     <h5>Pro</h5>
                     <h1>$99 <span>/per month</span></h1>
                   </div>
+                  <div className={styles.membership_card_drop}>
+                    <div class="btn-group">
+                      <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        2500 MAUs
+                      </button>
+                      <ul className={`${styles.drop_show_body} dropdown-menu`}>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className={styles.membership_list_contents}>
+                    <ul>
+                      <li>All Starter Features</li>
+                      <li>Unlimited Projects</li>
+                      <li>Unlimited fully costumisable themes</li>
+                      <li>A dedicated customer success manager</li>
+                    </ul>
+                  </div>
                   <div className={styles.membership_button_content}>
                     <button type="button" class="btn btn-danger">Choose Plan</button>
                   </div>
@@ -64,9 +83,18 @@ export default function Home() {
               </div>
               <div className="col-4">
                 <div className={styles.membership_card_body}>
-                  <div className={styles.membership_body_content}>
+                  <div className={`${styles.membership_body_content} pb-5`}>
                     <h5>Enterprise</h5>
                     <h1>Let's Talk</h1>
+                  </div>
+                  <div className={styles.membership_list_contents}>
+                    <ul>
+                      <li>All Pro Features</li>
+                      <li>Unlimited MAUs</li>
+                      <li>Dedicated Environment</li>
+                      <li>Enterprise Account Administration</li>
+                      <li>Premium Support & Services</li>
+                    </ul>
                   </div>
                   <div className={styles.membership_button_content}>
                     <button type="button" class="btn btn-outline-danger">Contact Us</button>
